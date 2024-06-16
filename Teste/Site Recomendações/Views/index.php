@@ -1,6 +1,5 @@
 <?php
 
-include_once 'D:/CURSOS/www/Teste/Site Recomendações/Controle/index.css';
 include_once 'D:/CURSOS/www/Teste/Site Recomendações/Config/Conector.php';
 //Comandos para Criar Build Funcionar
 
@@ -49,6 +48,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+
+
     <title>MYPC</title>
 </head>
 

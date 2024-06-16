@@ -1,5 +1,6 @@
 <?php
-require('Conector.php');
+include_once 'D:/CURSOS/www/Teste/Site Recomendações/Config/Conector.php';
+
 $pdo = Conexao::Conecta();
 
 function VerBuild($pdo){
