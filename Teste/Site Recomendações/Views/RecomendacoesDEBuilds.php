@@ -36,8 +36,8 @@
 </head>
 <body style="background-color: #EAD0D0; display: flex;flex-direction: column;align-items: center; color:#000; height:59.1em;justify-content:center;paddin:0;margin:0">
     <?php
-    require('Conector.php');
-    $pdo = Conexao::Conecta();
+include_once 'D:/CURSOS/www/Teste/Site Recomendações/Config/Conector.php';
+$pdo = Conexao::Conecta();
 
 
 //    var_dump ($_POST);
