@@ -36,7 +36,7 @@
 </head>
 <body style="background-color: #EAD0D0; display: flex;flex-direction: column;align-items: center; color:#000; height:59.1em;justify-content:center;paddin:0;margin:0">
     <?php
-include_once 'D:/CURSOS/www/Teste/Site Recomendações/Config/Conector.php';
+include_once __DIR__ . '/../Config/Conector.php';
 $pdo = Conexao::Conecta();
 
 

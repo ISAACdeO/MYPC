@@ -1,6 +1,7 @@
 <?php
 
-include_once 'D:/CURSOS/www/Teste/Site Recomendações/Config/Conector.php';
+include_once __DIR__ . '/../Config/Conector.php';
+
 //Comandos para Criar Build Funcionar
 
 $pdo = Conexao::Conecta();
