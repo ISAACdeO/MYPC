@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+select {
+    height: 54px;
+    width: 564px;
+    border-radius: 10px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black
+}
+
+label {
+    font-size: 64px;
+    width: 564px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000!important;
+}
+
+button {
+    margin-top: 3em;
+}
+
+body {
+    background-color: #EAD0D0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.MenuGlobal {
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Logomarca {
+    width: 60%;
+    font-size: 100px;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+}
+
+#Menu1 {
+    font-size: 30px;
+}
+
+#Menu2 {
+    font-size: 40px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EAD0D0;
+}
+
+header {
+    background-color: #ccc;
+    position: relative;
+    border-bottom: #000 solid 1px;
+    height: 130px;
+    display: grid;
+    grid-template: 100% / 20% 1fr;
+}
+
+header h1 {
+    font-size: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    margin: 0 55px;
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+
+#home {
+display: flex;
+align-items: center;
+}
+
+#cadastrar {
+display: flex;
+align-items: center;
+}
+
+#sobreN {
+display: flex;
+align-items: center;
+}
+
+#build {
+display: flex;
+align-items: center;
+}

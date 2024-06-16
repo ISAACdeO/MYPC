@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EAD0D0;
+}
+
+header {
+    background-color: #ccc;
+    padding: 70px;
+    position: relative;
+    border: #000 solid 1px;
+    width: auto;
+}
+
+header h1 {
+    font-size: 56px;
+    margin: 0;
+    padding-top: 15px;
+    position: absolute;
+    top: 22px;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    margin: 0 55px;
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+
+#home {
+    position: absolute;
+    left: 370px;
+    top: 55px;
+}
+
+#cadastrar {
+    position: absolute;
+    left: 490px;
+    top: 55px;
+}
+
+#sobreN {
+    position: absolute;
+    left: 645px;
+    top: 55px;
+}
+
+#build {
+    position: absolute;
+    left: 810px;
+    top: 55px;
+}
+
+#builds {
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.builds {
+    padding: 2rem;
+    text-align: center;
+}
+
+.build-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.build {
+    background-color: rgb(240, 230, 230);
+    border: 1px solid ;
+    padding: 1rem;
+    margin: 1rem;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid 1px black;
+    height: 330px;
+}
+
+
+
+.build h3 {
+    margin-top: 0;
+}
+
+.build ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.build ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: auto;
+}
+
+#botao1 {
+
+    top: 300px;
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
+    background-color: #ccc;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    top: -340px;
+    left: 300px;
+    font-weight: 1000;
+    color: black;
+    font-size: 22px;
+    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    font-size: 15px
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+a{
+    color: black!important;
+    text-decoration: none;
+}
